@@ -1,0 +1,33 @@
+{
+    "name": "twitch-mini-chat",
+    "version": "0.1",
+    "description": "twitch-mini-chat",
+    "icons": {
+        "48": "ico-twitch-48.png",
+        "128": "ico-twitch-128.png"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "popup.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            // "js": ["content.js"],
+            "matches": [
+                "https://www.twitch.tv/popout/*"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_title": "twitch-mini-chat"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ]
+}

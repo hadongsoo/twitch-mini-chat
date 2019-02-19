@@ -1,0 +1,43 @@
+html,body {
+    background:#faf9fa;
+}
+#root {
+    background:#faf9fa;
+}
+
+.room-selector__header,
+.chat-room__content > .tw-z-default,
+.tw-block > .tw-absolute,
+.tw-block + .chat-input__buttons-container,
+.chat-rules,
+.chat-list {
+	display:none !important;
+}
+
+.chat-input {
+	padding-top:3em !importatn;
+}
+
+.tw-root--theme-dark .tw-textarea, .tw-root--theme-light .tw-textarea, .tw-textarea,
+.tw-root--theme-dark .tw-textarea:focus, .tw-root--theme-light .tw-textarea:focus, .tw-textarea:focus {
+    box-shadow: none;
+    border:0 none;
+}
+.tw-root--theme-dark .tw-textarea::-webkit-input-placeholder, 
+.tw-root--theme-light .tw-textarea::-webkit-input-placeholder, 
+.tw-textarea::-webkit-input-placeholder {
+    color:#fff;
+}
+.tw-root--theme-dark .tw-textarea, 
+.tw-root--theme-light .tw-textarea, 
+.tw-textarea {
+    height:90px;
+}
+
+.tw-bottom-0 {
+
+    bottom: unset !important;
+}
+.tw-full-height {
+    height:auto !important;
+}
